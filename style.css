@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Gupter:wght@400;500;700&family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Style+Script&display=swap');
+
+*{
+    font-family: "Agdasima", sans-serif;
+    
+}
+body{
+    background-color: #222;
+
+}
+.card{
+    font-family: "Agdasima", sans-serif;
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #87b3a7, #297bb7);
+    margin: 45px auto 0;
+    border-radius: 20px;
+    padding: 15px 35px;
+    text-align: center;
+
+
+}
+.search{
+    height: 65px;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search > input{
+    border-radius: 50px;
+    border: none;
+    width: 50%;
+    font-size: larger;
+    padding-left: 10px;
+    height: 75%;
+    outline: none;
+
+}
+.search > button {
+   height: 75%;
+   border-radius: 50px;
+   width: 10%;border: none;
+}
+.search > button >i{
+    font-size: 1.215rem;
+    color: rgb(40, 88, 88);
+}
+.weather img{
+   width: 30%;
+}
+.weather > h1{
+    font-size: 2.9em;
+}
+.weather > h2{
+    font-size: 1.9em;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.humidity, .wind{
+    font-size: xx-large;
+    height: 10px;
+}
+.weather{
+    display: none;
+    
+}
+.error{
+    display: none;
+}

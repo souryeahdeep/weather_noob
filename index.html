@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://images.unsplash.com/photo-1509803874385-db7c23652552?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8fA%3D%3D">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" name="" placeholder="enter city name" spellcheck="false">
+            <button type="button"><i class='bx bx-search-alt-2'></i></button>
+        </div>
+        <div class="error">
+            <p>Invalid City</p>
+        </div>
+        <div class="weather">
+            <img src="./cloudy.png" alt="" class="weathericon">
+            <h1 class="temp">22*C</h1>
+            <h2 id="loc">Bhadreswar</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="./humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./wind.png" alt="">
+                    <div>
+                        <p class="wind">10Km/hr</p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
